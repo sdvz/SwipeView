@@ -85,6 +85,8 @@ typedef NS_ENUM(NSUInteger, SwipeViewAlignment)
 @property (nonatomic, readonly, getter = isScrolling) BOOL scrolling;
 @property (nonatomic, assign) BOOL defersItemViewLoading;
 @property (nonatomic, assign, getter = isVertical) BOOL vertical;
+//MML Customs
+@property (nonatomic, strong) UIPageControl *pageControl;
 
 - (void)reloadData;
 - (void)reloadItemAtIndex:(NSInteger)index;
